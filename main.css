@@ -465,3 +465,23 @@ input, textarea {
    background: url(../img/spa/mob_spa_header_01.jpg.jpg) no-repeat;
    height: 200px;
 }
+
+
+/*packages*/
+
+#hero-pack {
+   background: url(../img/pack/mob_pack_head_01.jpg) no-repeat;
+   height: 200px;
+}
+
+#pack-sec-2 {
+   background: url(../img/pack/mob_pack_section_03.jpg.jpg) no-repeat;
+   height: 200px;
+}
+
+#pack-sec-3 {
+   background: url(../img/pack/pack-3.jpg) no-repeat;
+   height: 200px;
+}
+
+
