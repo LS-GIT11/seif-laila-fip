@@ -93,7 +93,7 @@ Couples Resort Responsive Build
  /* 3. ---Main Hero Image--- */
  
  #hero {
-    background: url(../img/event/ice.jpg) no-repeat;
+    background: url(../img/event/lights.jpg) no-repeat;
     height: 300px;
  }
  
@@ -108,6 +108,7 @@ Couples Resort Responsive Build
     font-style: italic;
     transition:all 0.3s ease;
     cursor: pointer;
+    max-width: 150px;
  }
  
  .book-now:hover {
@@ -433,10 +434,8 @@ Couples Resort Responsive Build
   }
 
 
-
  /*event*/
 
- #desk-align-header {
-    display: flex;
-    flex-direction: row;
+ .event-img {
+   max-width: 250px;
  }
