@@ -484,4 +484,27 @@ input, textarea {
    height: 200px;
 }
 
+/*booking*/
 
+#hero-book {
+   background: url(../img/book/staff-header.jpg) no-repeat; 
+   height: 200px;
+}
+
+
+#pack-2 {
+   background: url(../img/book/sec2.jpg) no-repeat; 
+   height: 200px;
+}
+
+
+#pack-3 {
+   background: url(../img/book/prop.jpg) no-repeat;
+   height: 200px;
+}
+
+/*
+#hero-book {
+   background: url(../img/contact-hero.jpg) no-repeat;
+   height: 200px;}
+*/
