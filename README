@@ -1,0 +1,20 @@
+# Couples Resort Website Redesign
+
+This project is a recreation of the **Couples Resort** website, designed as part of the final project for the first term in the Interactive Media Design program.
+
+## Project Overview
+
+The project includes a refreshed and responsive design of the Couples Resort website. The redesign incorporates a **mobile-first approach** for key pages and a dedicated desktop page for a specific feature.
+
+### Pages Included:
+- **Mobile Pages**:
+  - Packages
+  - Booking
+  - Spa
+- **Desktop Page**:
+  - Winter Wonderland Weekends
+
+## Tools and Technologies
+- **Figma**: Used for designing the layout and UI.
+- **Photoshop**: Used for editing and optimizing images.
+- **Visual Studio Code**: Used for programming the website.
