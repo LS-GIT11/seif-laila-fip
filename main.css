@@ -415,3 +415,53 @@ input, textarea {
    font-size: 11px;
 }
 
+
+/*spa*/
+
+#spa-sec-2 {
+   background: url(../img/spa/mob_spa_section_02.jpg.jpg) no-repeat;
+   height: 200px;
+}
+
+#spa-sec-3 {
+   background: url(../img/spa/mob_spa_nav2_sec3.jpg.jpg) no-repeat;
+   height: 200px;
+}
+
+#spa-sec-4 {
+   background: url(../img/spa/mob_spa_section_03.jpg.jpg) no-repeat;
+   height: 200px;
+}
+
+#hero-spa-img {
+   
+}
+
+#LS {
+   max-width: 170px;
+   max-height: 187px;
+}
+
+ .para-gap {
+   margin-bottom: 15px;
+ }
+
+ .para-gap-2 {
+   margin-bottom: 50px;
+ }
+
+ .para-gap-top {
+   margin-top: 15px;
+ }
+
+
+ .h2-spa {
+   font-size: 16px;
+   margin-top: 16px;
+   margin-bottom: 0px;
+ }
+
+ #hero-spa {
+   background: url(../img/spa/mob_spa_header_01.jpg.jpg) no-repeat;
+   height: 200px;
+}
