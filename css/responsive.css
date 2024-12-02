@@ -1,0 +1,57 @@
+/* Base styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  /* Mobile styles: 4-column layout */
+  @media (max-width: 767px) {
+    .container {
+      grid-template-columns: repeat(4, 1fr); /* 4 columns layout */
+    }
+    .header, .footer {
+      grid-column: 1 / -1; /* Header and footer span all columns */
+    }
+    .sidebar {
+      grid-column: 1 / -1; /* Sidebar spans 2 of the 4 columns */
+    }
+    .content {
+      grid-column: 3 / -1; /* Content spans the last 2 of the 4 columns */
+    }
+  }
+  
+  /* Desktop styles: 12-column layout */
+  @media (min-width: 768px) {
+    .container {
+      grid-template-columns: repeat(12, 1fr); /* 12 columns layout */
+    }
+    .header, .footer {
+      grid-column: 1 / -1; /* Header and footer span all columns */
+    }
+    .sidebar {
+      grid-column: 1 / 4; /* Sidebar spans 3 of the 12 columns */
+    }
+    .content {
+      grid-column: 4 / -1; /* Content spans the remaining 9 of the 12 columns */
+    }
+  }
+  
+  .sidebar {
+    background-color: #f0f0f0;
+  }
+  
+  .content {
+    background-color: #fff;
+  }
+  
+  .footer {
+    background-color: #ddd;
+  }
+  
